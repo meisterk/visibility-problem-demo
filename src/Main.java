@@ -8,7 +8,7 @@ public class Main {
         System.out.println("main-thread: second thread is started");
         // let main-Thread sleep
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
